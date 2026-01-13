@@ -1,10 +1,7 @@
-content = """[server]
+[server]
 headless = true
 port = 10000
 
-[broweser]
+[browser]
 serverAddress = "0.0.0.0"
-serverport=10000
-"""
-with open("config.toml","w") as file:
-  file.write(content)
+serverPort = 10000
